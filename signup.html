@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>SignUp Page</title>
+</head>
+
+<body>
+    <h1 id="up">SignUP</h1>
+    <div class="box">
+        <div class="Username">Email : </div>
+        <div class="password">Password : </div>
+        <input type="email" name="Username" id="name" placeholder="Email">
+        <input type="password" name="password" id="pass" eye="visible" autocomplete="current-password"
+            placeholder="Password" required>
+        <button type="submit" id="login" onclick=" go()">SignUp</button>
+        <!-- password visibility -->
+        <input type="checkbox" value="open" id="eye" onclick="show()">
+        <div class="text">
+            Sign In to your account </div>
+        <h3 id="signup" onclick="jump()">SignIn</h3>
+    </div>
+</body>
+<!-- <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+<script src="login.js"></script>
+<script>
+    up.style.left="17cm";
+    function show() {
+        let open = document.getElementById("pass");
+        if (open.type == "password") {
+            open.type = "text";
+        }
+        else {
+            open.type = "password";
+        }
+    }
+
+    function jump() {
+        window.location.href = "index.html";
+    }
+</script>
+</script>
+</html>

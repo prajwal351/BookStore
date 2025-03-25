@@ -1,0 +1,104 @@
+*{
+    background-color: rgba(43, 32, 32, 0.288);
+    margin: 0%;
+    padding: 0%;
+    user-select: none;
+}
+.box{
+    position: absolute;
+    width: 11cm;
+    height: 9cm;
+    background-color: rgba(224, 242, 242, 0.696);
+    top: 5cm;
+    left: 14cm;
+    border-radius: 1cm;
+    border-color: black solid;
+    border-width: 2cm;
+    box-shadow: 1.2cm 0.1cm 50cm 0.5cm ;
+    box-shadow:  wheat;
+}
+#name{
+    position: absolute;
+    padding-left: 30px;
+    top: 2cm;
+    width: 9.6cm;
+    height: 1cm;
+    left: 0.3cm;
+    outline: none;
+    border: none;
+    background-color: rgba(150, 148, 145, 0.329);
+    border-radius: 0.5cm;
+    font-size: 0.7cm;
+}
+#pass{
+    position: absolute;
+    padding-left: 30px;
+    top: 4.5cm;
+    width: 9.6cm;
+    height: 1cm;
+    left: 0.3cm;
+    outline: none;
+    border: none;
+    background-color: rgba(150, 148, 145, 0.329);
+    border-radius: 0.5cm;
+    font-size: 0.7cm;
+}
+.Username{
+    position: absolute;
+    font-size: 0.8cm;
+    top: 1cm;
+    left: 1cm;
+    background :none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.password{
+    position: absolute;
+    font-size: 0.8cm;
+    top: 3.5cm;
+    left: 1cm;
+    background :none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h1{
+    position: absolute;
+    top: 2cm;
+    left: 17.6cm;
+    background: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(31, 40, 40);
+    font-size: 1.5cm;
+}
+#login{
+    position: absolute;
+    top: 6.1cm;
+    width: 5cm;
+    height: 1cm;
+    left: 3cm;
+    background: none;
+    background-color: rgb(87, 87, 241);
+    cursor: pointer;
+    font-size: 0.7cm;
+    border-radius: 0.7cm;
+}
+#eye{
+    position: absolute;
+    top: 4.7cm;
+    left: 9.7cm;
+    width: 1cm;
+    height: 0.6cm;
+}
+.text{
+    position: absolute;
+    top: 8cm;
+    background: none;
+    left: 1cm;
+}
+h3{
+    position: absolute;
+    top: 7.98cm;
+    background: none;
+    left: 5.3cm;
+    color: blue;
+    cursor: pointer;
+}

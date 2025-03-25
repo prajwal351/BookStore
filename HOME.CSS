@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    user-select: none;
+}
+.home{
+    background-image: url("https://i.pinimg.com/736x/0f/83/02/0f83029049fcdb1bee5693af1de951cb.jpg");
+    background-repeat:no-repeat;
+    display: flex;
+    width: 19cm;
+    height:18.6cm;
+    overflow: hidden;
+    box-shadow: 0cm 0cm 100cm red;
+}
+.book1{
+    position: relative;
+    top: 4cm;
+    left: 3.5cm;
+    cursor: pointer;
+    font-size: 1cm;
+}
+.book2{
+    position: relative;
+    top: 4cm;
+    left: 5.5cm;
+    cursor: pointer;
+    font-size: 1cm;
+}
+.book3{
+    position: relative;
+    top: 4cm;
+    left: 7.5cm;
+    cursor: pointer;
+    font-size: 1cm;
+}
+.book4{
+    position: relative;
+    cursor: pointer;
+    top: 12cm;
+    left: -5.3cm;
+    font-size: 1cm;
+}
+.book5{
+    position: relative;
+    cursor: pointer;
+    top: 12cm;
+    left: -3.5cm;
+    font-size: 1cm;
+}
+.book6{
+    cursor: pointer;
+    position: relative;
+    top: 12cm;
+    left: -1.3cm;
+    font-size: 1cm;
+}
